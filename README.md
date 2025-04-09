@@ -26,7 +26,7 @@ _Можно перейти с логина через якорь_
 
 ### Резет CSS
 
-Подключите [данный](https://gist.githubusercontent.com/ktkv419/c8840dfcbcff24248c20f4199108b28e/raw/a4aac6b59c95922023a26177bac72aaeffc4cbec/reset.css) CSS файл перед подключением вашего для нормализации правил CSS
+Подключите [данный](https://gist.githubusercontent.com/ktkv419/c8840dfcbcff24248c20f4199108b28e/raw/eec499022cca5ed984d91d2a2c2736d2aef8ed6d/reset.css) CSS файл перед подключением вашего для нормализации правил CSS
 
 ### Шрифты
 
