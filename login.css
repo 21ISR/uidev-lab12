@@ -11,10 +11,13 @@ body{
     
 }
 .h{
+    display: flex;
+    flex-direction: column;
     text-align: center;
     background:linear-gradient(70deg,#667eea, #764ba2);
     color: #ffffff;
     padding: 2.8rem;
+    gap: 1.2rem;
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
     
@@ -30,14 +33,47 @@ a{
     
     text-decoration: none;
     font-weight: 400;
-    color: #667eea;
+    color: #667eea !important;
 }
 .form{
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    gap: 1rem;
 }
 .passw{
-    padding: 10px 120px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    gap: 1rem;
 }
 .ch{
+    display: flex;
+    gap: 2rem;
+
+}
+input{
+    border: solid 1px #c3cfe2;
+    padding: 1rem;
+    border-radius: 0.3rem;
     
 }
+
+input:focus {
+    outline-color: #764ba2;
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+    
+}
+button{
+    background:linear-gradient(70deg,#667eea, #764ba2);
+    border: none;
+    color: #ffffff;
+    padding: 1rem;
+    border-radius:0.3rem ;
+}
+
