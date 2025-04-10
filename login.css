@@ -10,6 +10,11 @@ body{
     border-radius: 1rem;
     
 }
+form div{
+    padding: 1.8rem 3rem  !important
+
+
+}
 .h{
     display: flex;
     flex-direction: column;
@@ -49,18 +54,24 @@ a{
 }
 .ch{
     display: flex;
-    gap: 2rem;
-
+    padding: 1rem 1.2rem;
+    gap: 0.5rem;
+}
+.forg{
+    display: flex;
+    justify-content: right;
+    padding: 0rem 0rem 0rem 8rem;
 }
 input{
-    border: solid 1px #c3cfe2;
+    border: solid 1px #e0e0e0;
     padding: 1rem;
     border-radius: 0.3rem;
     
 }
 
 input:focus {
-    outline-color: #764ba2;
+    outline-color: #667eea;
+    box-shadow: 1px 1px 10px 3px rgb(190, 190, 190);
 }
 .but{
     display: flex;
@@ -73,7 +84,32 @@ button{
     background:linear-gradient(70deg,#667eea, #764ba2);
     border: none;
     color: #ffffff;
-    padding: 1rem;
+    padding: 1.7rem;
     border-radius:0.3rem ;
+    font-weight: 600;
 }
-
+.or{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #a8a8a8;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.or {
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #a8a8a8;
+    font-size: 1.4rem;
+    padding: 1rem;
+    align-items: center;
+    
+  }
+  .line{
+    height: 1px;
+    background-color:rgb(235, 235, 235); ;
+    flex-grow: 1;
+  }
