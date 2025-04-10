@@ -45,12 +45,14 @@ a{
     flex-direction: column;
     padding: 1.2rem;
     gap: 1rem;
+    
 }
 .passw{
     display: flex;
     flex-direction: column;
     padding: 1.2rem;
     gap: 1rem;
+    
 }
 .ch{
     display: flex;
@@ -69,9 +71,13 @@ input{
     
 }
 
-input:focus {
+.pass:focus {
     outline-color: #667eea;
-    box-shadow: 1px 1px 10px 3px rgb(190, 190, 190);
+    box-shadow: 1px 1px 5px 2px rgb(177, 177, 177);
+}
+.em:focus {
+    outline-color: #667eea;
+    box-shadow: 1px 1px 5px 2px rgb(177, 177, 177);
 }
 .but{
     display: flex;
@@ -112,4 +118,5 @@ button{
     height: 1px;
     background-color:rgb(235, 235, 235); ;
     flex-grow: 1;
+    margin: 10px;
   }
