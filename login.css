@@ -27,6 +27,9 @@ form div{
     border-top-left-radius: 1rem;
     
 }
+.stud_log{
+    font-size: 2.8rem;
+}
 p{
     font-weight: 200;
 }
@@ -45,7 +48,7 @@ a{
     flex-direction: column;
     padding: 1.2rem;
     gap: 1rem;
-    
+    margin: 2rem 0rem 0rem 0rem;
 }
 .passw{
     display: flex;
@@ -66,8 +69,8 @@ a{
 }
 input{
     border: solid 1px #e0e0e0;
-    padding: 1rem;
-    border-radius: 0.3rem;
+    padding: 1.3rem;
+    border-radius: 0.8rem;
     
 }
 
@@ -93,6 +96,12 @@ button{
     padding: 1.7rem;
     border-radius:0.3rem ;
     font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    transform: translate(0px, -3px);
+    transition: 0.3s ease-out;
+    box-shadow: 1px 1px 5px 2px rgb(177, 177, 177);
 }
 .or{
     display: flex;
@@ -120,3 +129,23 @@ button{
     flex-grow: 1;
     margin: 10px;
   }
+  .images{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  img{
+    width: 50px;
+  }
+ .reg{
+    display: flex;
+    justify-content: center;
+ }
+ a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+ }
