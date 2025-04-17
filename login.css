@@ -1,0 +1,151 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+    background: linear-gradient(70deg, #f5f7fa, #c3cfe2,#4a5568);
+}
+.login{
+    background-color: #ffffff;
+    border-radius: 1rem;
+    
+}
+form div{
+    padding: 1.8rem 3rem  !important
+
+
+}
+.h{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background:linear-gradient(70deg,#667eea, #764ba2);
+    color: #ffffff;
+    padding: 2.8rem;
+    gap: 1.2rem;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    
+}
+.stud_log{
+    font-size: 2.8rem;
+}
+p{
+    font-weight: 200;
+}
+label{
+    color: #3e4042;
+    font-weight: 500;
+}
+a{
+    
+    text-decoration: none;
+    font-weight: 400;
+    color: #667eea !important;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    gap: 1rem;
+    margin: 2rem 0rem 0rem 0rem;
+}
+.passw{
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    gap: 1rem;
+    
+}
+.ch{
+    display: flex;
+    padding: 1rem 1.2rem;
+    gap: 0.5rem;
+}
+.forg{
+    display: flex;
+    justify-content: right;
+    padding: 0rem 0rem 0rem 8rem;
+}
+input{
+    border: solid 1px #e0e0e0;
+    padding: 1.3rem;
+    border-radius: 0.8rem;
+    
+}
+
+.pass:focus {
+    outline-color: #667eea;
+    box-shadow: 1px 1px 5px 2px rgb(177, 177, 177);
+}
+.em:focus {
+    outline-color: #667eea;
+    box-shadow: 1px 1px 5px 2px rgb(177, 177, 177);
+}
+.but{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    
+    
+}
+button{
+    background:linear-gradient(70deg,#667eea, #764ba2);
+    border: none;
+    color: #ffffff;
+    padding: 1.7rem;
+    border-radius:0.3rem ;
+    font-weight: 600;
+    cursor: pointer;
+}
+button:hover{
+    transform: translate(0px, -3px);
+    transition: 0.3s ease-out;
+    box-shadow: 1px 1px 5px 2px rgb(177, 177, 177);
+}
+.or{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #a8a8a8;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+.or {
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #a8a8a8;
+    font-size: 1.4rem;
+    padding: 1rem;
+    align-items: center;
+    
+  }
+  .line{
+    height: 1px;
+    background-color:rgb(235, 235, 235); ;
+    flex-grow: 1;
+    margin: 10px;
+  }
+  .images{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    
+    
+  }
+  img{
+    width: 50px;
+  }
+ .reg{
+    display: flex;
+    justify-content: center;
+ }
+ a:hover{
+    text-decoration: underline;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+ }
